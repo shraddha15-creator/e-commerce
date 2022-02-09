@@ -1,0 +1,18 @@
+:root {
+    --light: rgb(170, 170, 170);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.icon {
+    font-size: 1rem;
+}
