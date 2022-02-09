@@ -6,27 +6,135 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/f9a7380946.js" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="https://unfold-ui.netlify.app/css/components.css">
     <link rel="stylesheet" href="style.css">
     <title>Upbeat</title>
 </head>
 
 <body>
+    <!-- Navbar -->
     <div class="navigation-container">
         <div class="left-nav">
-            <h3 class="brand"><a href="#"><i class="fas fa-guitar"></i> Upbeat</a></h3>
+            <h3 class="nav-brand"><a href="./index.html"><i class="fas fa-guitar"></i>Upbeat</a></h3>
         </div>
 
         <div class="right-nav">
-            <i class="fas fa-search icon"></i>
-            <i class="fas fa-cart-plus icon"></i>
-            <i class="fas fa-user icon"></i>
-            <button class="btn btn-primary btn-light">Login</button>
+            <i href="#" class="fas fa-search icon"></i>
+            <i href="./screens/cart/cart.html" class="fas fa-cart-plus icon"></i>
+            <i class="fas fa-bookmark icon"></i>
+            <!-- <i href="" class="fas fa-user icon"></i> -->
+
+            <a href="./screens/login/login.html" class="links"><button class="btn btn-primary">Login</button></a>
+
         </div>
     </div>
-    <main>
 
+    <!-- main-section -->
+    <main>
+        <div class="img-container">
+            <div class="img-txt overlay">
+                <img src="./images/hero-img.jpg" alt="hero-img" class="img-responsive">
+            </div>
+            <div class="txt-overlay">
+                <div class="sub-heading">Welcome,</div>
+                <div class="content-heading">Start Your Musical Journey With Upbeat!</div>
+                <a href="./screens/products/products.html" class="links"><button
+                        class="shop-now-btn btn btn-primary btn-dark">Shop Now</button></a>
+            </div>
+
+        </div>
+
+        <!-- Shop by category -->
+        <h3 class="section-name">Shop by Category</h3>
+        <div class="brands-container">
+            <div class="brand-box">
+                <img src="./images/Acoustic-guitar.jpg" alt="guitar-one" class="brand-logo img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">ACOUSTIC</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/electric-guitar.jpg" alt="guitar-one" class="brand-logo img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Electric</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/hollowbody-guitar.jpg" alt="guitar-one" class="brand-logo img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Hollowbody</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/guitar-one.jpg" alt="guitar-one" class="brand-logo img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Classic</h5>
+                </a>
+            </div>
+        </div>
+
+        <!-- Shop bt Brand  -->
+        <h3 class="section-name">Shop by Brand</h3>
+        <div class="brands-container">
+            <div class="brand-box">
+                <img src="./images/logo-yamaha.jpg" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Yamaha</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/logo-gibson.jpg" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Gibson</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/logo-guild1.jpg" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Guild</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/logo-seagull.png" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Seagull</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/logo-ovation.jpg" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Ovation</h5>
+                </a>
+            </div>
+            <div class="brand-box">
+                <img src="./images/logo-washburn.jpg" alt="guitar-one" class="brand-name img-main img-round">
+                <a href="">
+                    <h5 class="guitar-type">Washburn</h5>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-left">
+                    <a href="">Our Stores</a>
+                    <a href="">Career</a>
+                    <a href="">Support</a>
+                    <a href="">Marketing</a>
+                </div>
+                <div class="footer-mid">
+                    <a href="">Send Feedback</a>
+                    <a href="">Reviews</a>
+                    <a href="">Privacy Policy</a>
+                    <a href="">Contact Us</a>
+                </div>
+                <div class="footer-right">
+                    <i class="fab fa-instagram icon-footer"></i>
+                    <i class="fab fa-twitter icon-footer"></i>
+                    <i class="fab fa-facebook icon-footer"></i>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 
