@@ -36,8 +36,14 @@ body {
 }
 
 .products-all {
-    background-color: rgb(250, 138, 138);
     width: 80%;
+    height: auto;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+}
+
+.products-all h2 {
+    font-weight: 500;
 }
 
 .filter-title {
@@ -78,4 +84,49 @@ body {
     cursor: pointer;
     border: 4px solid var(--primary-dark);
     box-shadow: 407px 0 0 400px var(--primary-light);
+}
+
+/* Products page  */
+.showing-product-result {
+    font-weight: normal;
+    font-size: 0.7rem;
+}
+
+.total-products-container {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    width: 22%;
+    padding: 0.4rem;
+}
+
+/* card badge  */
+.card-badge::after {
+    width: 30%;
+    padding: 0.2rem 1rem;
+    font-weight: 500;
+}
+
+/* Card details container */
+.card-product-brand,
+.card-product-name,
+.card-product-price,
+.card-product-offer {
+    font-weight: 500;
+}
+
+/* Add to cart btn  */
+.btn-dark {
+    margin: 0.5rem 0 0 0;
+    background-color: var(--primary-color);
+}
+
+.btn-dark:hover {
+    border: 2px solid var(--primary-color);
+    background: var(--white);
+    color: var(--black);
+    border-radius: 5px;
 }
