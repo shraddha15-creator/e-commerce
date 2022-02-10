@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f9a7380946.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unfold-ui.netlify.app/css/components.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./cart.css">
+    <title>My Cart</title>
+</head>
+
+<body>
+    <div class="navigation-container">
+        <div class="left-nav">
+            <h3 class="nav-brand"><a href="../../index.html"><i class="fas fa-guitar"></i>Upbeat</a></h3>
+        </div>
+
+        <div class="right-nav">
+            <i href="#" class="fas fa-search icon"></i>
+            <i href="./screens/cart/cart.html" class="fas fa-cart-plus icon"></i>
+            <i class="fas fa-bookmark icon"></i>
+            <!-- <i href="" class="fas fa-user icon"></i> -->
+            <a href="../login/login.html" class="links"><button class="btn btn-primary">Log Out</button></a>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <div class="cart-title">My Cart (1)</div>
+        <div class="cart-content">
+            <div class="cart-products-added">
+                <!-- CARD -->
+                <div class="card-container card-horizontal">
+                    <div class="card-img-container">
+                        <img class="img-card" src="../../images/el-four.jpg" alt="">
+                    </div>
+                    <div class="card-details-container card-horizontal-details">
+                        <h5 class="card-product-brand">YAMAHA</h5>
+                        <h6 class="card-product-name">Electric Guitar</h6>
+                        <h6 class="card-product-price">Rs. 19,999</h6>
+                        <h6 class="card-product-offer"><span class="pro-off">Offer Price: </span>Rs. 15,499</h6>
+                        <button class="btn btn-with-links btn-dark">Remove from Cart</button>
+                        <button class="btn btn-with-links add-to-cart-btn">Add to Wishlist</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-price-details-box">
+                <div class="price-details-title hr-line">PRICE DETAILS</div>
+                <div class="items-total">
+                    <p>Price (1 Items)</p>
+                    <p>19999</p>
+                </div>
+                <div class="items-total">
+                    <p>Discount</p>
+                    <p>-4500</p>
+                </div>
+                <div class="items-total hr-line">
+                    <p>Delivery Chanrge</p>
+                    <p>999</p>
+                </div>
+                <div class="price-details-total items-total">
+                    <p>TOTAL AMOUNT</p>
+                    <p>16498</p>
+                </div>
+                <p class="cart-saving-msg">You will save 1999 on this order</p>
+                <button class="btn btn-with-links btn-dark place-order-btn">PLACE ORDER</button>
+                <p class="cart-saving-msg">Do you Coupon?</p>
+                <div class="price-details-total items-total">
+                    <input class="input-box coupon-btn" type="text" placeholder="Coupon code">
+                    <button class="btn btn-with-links btn-dark coupon-apply-btn">APPLY</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
