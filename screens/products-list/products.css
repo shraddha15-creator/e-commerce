@@ -5,8 +5,7 @@ body {
 .product-container {
     display: flex;
     gap: 1rem;
-    height: 100vh;
-    /* background-color: yellow; */
+    height: auto;
     margin: 1rem;
 }
 
