@@ -1,0 +1,34 @@
+@import url(../products-list/products.css);
+
+body {
+    background-color: var(--primary-light);
+}
+
+.wishlist-product-container {
+    /* background-color: var(--primary-color); */
+    height: 100vh;
+    margin: 1rem;
+    padding: 0.5rem
+}
+
+.wishlisted-products {
+    display: flex;
+    gap: 0.7rem;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+.card-close {
+    background-color: transparent;
+    font-size: 1rem;
+}
+
+.wishlist-title {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.wishlist-total {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
