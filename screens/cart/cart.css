@@ -82,12 +82,12 @@ body {
     font-weight: 500;
 }
 
-.add-to-cart-btn {
+.add-to-wshl-btn {
     background-color: var(--primary-light);
     width: 100%;
 }
 
-.add-to-cart-btn:hover {
+.add-to-wshl-btn:hover {
     border-radius: 5px;
 }
 
@@ -95,12 +95,6 @@ body {
 .coupon-apply-btn {
     width: 45%;
 }
-
-/* .input-box {
-    width: 43%;
-    padding: 0.1rem;
-    border-radius: 5px;
-} */
 
 .coupon-btn {
     width: 43%;
