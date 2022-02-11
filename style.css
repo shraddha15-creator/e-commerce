@@ -25,8 +25,9 @@ div {
 }
 
 .nav-brand a {
-    font-weight: 400;
-    font-size: 2vw;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
     color: var(--white);
 }
 
@@ -36,6 +37,10 @@ div {
     margin: 0 auto;
     width: 100%;
     z-index: 3;
+}
+
+.right-nav a i {
+    color: var(--white);
 }
 
 .icon {
@@ -209,4 +214,27 @@ div {
 
 .icon-footer {
     font-size: 2rem;
+}
+
+/* Media queries */
+@media only screen and (max-width: 1200px) {
+    .nav-brand a {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-brand a {
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .nav-brand a {
+        font-size: 1rem;
+    }
+
+    .icon {
+        display: none;
+    }
 }
