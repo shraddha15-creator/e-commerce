@@ -75,13 +75,6 @@ body {
     border-bottom: 1px solid var(--primary-color);
 }
 
-/* place-order-btn */
-.place-order-btn {
-    background-color: var(--place-order-btn);
-    color: var(--black);
-    font-weight: 500;
-}
-
 .add-to-wshl-btn {
     background-color: var(--primary-light);
     width: 100%;
