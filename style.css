@@ -292,6 +292,10 @@ div {
     .nav-brand a {
         font-size: 1.3rem;
     }
+
+    .search-box {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 680px) {
@@ -301,10 +305,6 @@ div {
 
     .icon {
         font-size: 0.8rem;
-    }
-
-    .right-nav {
-        display: none;
     }
 
     .footer-container {
