@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/f9a7380946.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unfold-ui.netlify.app/css/components.css">
     <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../../components/hamburger/hamburger.css">
     <link rel="stylesheet" href="./products.css">
     <title>Products</title>
 </head>
@@ -16,7 +17,9 @@
     <!-- Navbar -->
     <div class="navigation-container">
         <div class="left-nav">
-            <h3 class="nav-brand"><a href="../../index.html"><i class="fas fa-guitar"></i>Upbeat</a></h3>
+            <h3 class="nav-brand"><a href="./index.html"><i class="fas fa-guitar"></i>
+                    <span class="brand-name-hide">Upbeat</span></a>
+            </h3>
         </div>
 
         <!-- animation on search -->
@@ -29,7 +32,25 @@
             <a href="../cart/cart.html"><i class="fas fa-cart-plus icon"></i></a>
             <a href="../wishlist/wishlist.html"><i class="fas fa-bookmark icon"></i></a>
             <!-- <i href="" class="fas fa-user icon"></i> -->
-            <a href="../login/login.html" class="links"><button class="btn btn-primary">Login</button></a>
+            <a href="../login/login.html" class="links"><button class="btn btn-primary login-btn">Login</button></a>
+
+            <!-- Hamburger start -->
+            <div class="hamburger">
+                <input type="checkbox" id="hamburger-input">
+                <label id="burger" for="hamburger-input">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </label>
+                <nav id="hamburger-menu" class="hamb-items">
+                    <a href="#">Account</a>
+                    <a href="#">Orders</a>
+                    <a href="../cart/cart.html">My Cart</a>
+                    <a href="../wishlist/wishlist.html">My Wishlist</a></a>
+                    <a href="../login/login.html" class="hamb-logout-btn">Login</a>
+                </nav>
+            </div>
+            <!-- Hamburger end -->
         </div>
     </div>
     <main>
