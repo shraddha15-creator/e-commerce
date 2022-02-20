@@ -301,7 +301,7 @@ div {
 @media only screen and (max-width: 680px) {
 
     .brand-name-hide {
-        display: none;
+        /* display: none; */
     }
 
     .nav-brand a {
