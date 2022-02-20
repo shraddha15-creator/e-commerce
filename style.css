@@ -299,12 +299,17 @@ div {
 }
 
 @media only screen and (max-width: 680px) {
+
+    .brand-name-hide {
+        display: none;
+    }
+
     .nav-brand a {
         font-size: 1rem;
     }
 
     .icon {
-        font-size: 0.8rem;
+        display: none;
     }
 
     .footer-container {
@@ -313,5 +318,9 @@ div {
 
     .brand-box {
         width: 50%;
+    }
+
+    .login-btn {
+        display: none;
     }
 }
