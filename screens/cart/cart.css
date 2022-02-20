@@ -25,6 +25,7 @@ body {
 .cart-content {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -54,6 +55,7 @@ body {
     border-radius: 5px;
     padding: 1rem;
     gap: .5rem;
+    max-width: 100%;
 }
 
 .price-details-title {
@@ -99,5 +101,21 @@ body {
     .cart-content {
         display: flex;
         flex-direction: column;
+    }
+
+    /* .wishlisted-prod-card {
+        display: none;
+    } */
+}
+
+@media only screen and (min-width: 680px) {
+    .wishlisted-prod-card {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .card-horizontal {
+        display: none;
     }
 }
